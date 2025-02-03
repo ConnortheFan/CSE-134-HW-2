@@ -1,26 +1,14 @@
 Required tags
 
 script*
-span
-iframe
 audio
 video
 canvas*
 svg*
 ul
-optgroup
-form
-label
-fieldset
-legend
-input
-textarea
 datalist
-select
-option
 details
 summary
-button*
 table
 tr
 td
