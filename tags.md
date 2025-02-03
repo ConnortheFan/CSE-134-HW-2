@@ -1,13 +1,6 @@
-script*
 audio
 video
-canvas*
 svg*
-figure
-figcaption
-search
-dialog
 pre
 kbd
 source
-noscript

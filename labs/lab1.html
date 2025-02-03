@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 1: Canvas</title>
+
+        <style>
+            * {
+                border: 1px;
+                border-color: black;
+                border-style: solid;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Lab 1: Canvas</h1>
+
+        <canvas id="lab1Canvas" width="500" height="200">
+            Your browser doesn't support canvases.
+        </canvas>
+
+        <script>
+            let canvas = document.getElementById("lab1Canvas");
+            let ctx = canvas.getContext("2d");
+            ctx.fillStyle = "red";
+            ctx.fillRect(0,0,500,200);
+            ctx.moveTo(100, 25);
+            ctx.lineTo(100, 175);
+            ctx.lineTo(100, 100);
+            ctx.lineTo(200, 100);
+            ctx.lineTo(200, 25);
+            ctx.lineTo(200,175);
+            ctx.stroke();
+            ctx.moveTo(300, 100);
+            ctx.lineTo(300, 175);
+            ctx.stroke();
+            ctx.fillStyle = "black";
+            ctx.fillRect(295, 50, 10, 10);
+        </script>
+        <noscript>Your browser has Javascript turned off. The Canvas won't work.</noscript>
+    </body>
+
+</html>
