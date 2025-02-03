@@ -1,18 +1,14 @@
 Required tags
 
 script*
-div
 span
-code
 iframe
 audio
 video
 canvas*
 svg*
 ul
-ol
 optgroup
-li
 form
 label
 fieldset
@@ -25,7 +21,6 @@ option
 details
 summary
 button*
-template*
 table
 tr
 td
@@ -45,7 +40,6 @@ pre
 dd
 dt
 dl
-dfn
 kbd
 source
 noscript
